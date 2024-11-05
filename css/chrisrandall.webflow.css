@@ -1880,8 +1880,8 @@ ul {
 }
 
 .header-role {
-  grid-column-gap: 2px;
-  grid-row-gap: 2px;
+  grid-column-gap: 1px;
+  grid-row-gap: 1px;
   flex-direction: column;
   justify-content: flex-start;
   align-items: stretch;
@@ -1989,6 +1989,7 @@ ul {
 }
 
 .branding-holding {
+  padding-top: 2px;
   display: flex;
 }
 
@@ -1998,7 +1999,7 @@ ul {
 
 .logo-holding {
   image-rendering: auto;
-  height: 35px;
+  height: 34px;
 }
 
 .link-2 {
@@ -3372,6 +3373,11 @@ ul {
   .holding-data {
     margin-top: 52px;
   }
+
+  .header-me {
+    grid-column-gap: 40px;
+    grid-row-gap: 40px;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -3895,9 +3901,9 @@ ul {
   }
 
   .logo-holding {
-    height: 30px;
-    min-height: 30px;
-    max-height: 30px;
+    height: 29px;
+    min-height: 29px;
+    max-height: 29px;
   }
 
   .holding-wrapper {
